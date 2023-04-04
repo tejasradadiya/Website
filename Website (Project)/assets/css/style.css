@@ -1,0 +1,462 @@
+:root {
+    --blue-900:#11193b;
+    --dark-blue:rgba(7,11,41,0.90);
+    --box-blue:#1b2654;
+    --light-blue:#17aac9;
+    --background:#070b29;
+    --background-800:#070c33;
+    --white-700:#f5f5f5;
+    --font-family:'Nunito Sans';
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+   height: 50px;
+   background-color: var(--blue-900);
+}
+
+.contact ul li{
+    color: var(--font-700);
+    padding: 10px;
+}
+.contact ul li a ,i{
+    color: var(--white-700);
+}
+.hedding{
+    background-color: var(--font-800);
+    width: 300px;
+    height: 50px;
+    color: var(--font-700);
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+.icon ul li a{
+    color: #f5f5f5;
+}
+.icon ul li {
+    margin: 0 10px;
+}
+.box{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--font-800);
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+}
+header{
+    height: 100px;
+    background-color: var(--dark-blue);
+    align-items: center;
+	
+}
+.menu ul li{
+    margin: 0 18px;
+	
+}
+.menu ul li a{
+    font-size: 14px;
+    color: var(--white-700);
+    font-family: var(--font-family);
+
+	
+}
+.menu ul li a i{
+    font-size: 17px;
+    color: var(--font-800);
+    font-family: var(--font-family);
+    font-weight: bold;
+    margin: 0 5px;
+	
+}   
+.icon .box1{
+    width: 115px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: var(--light-blue);
+    text-align: center;
+    line-height: 40px;
+    margin: 0 5px;
+}
+.icon .box1 a{
+    color: var(--white-700);
+    font-size: 15px;
+    font-weight: bold;
+}
+.drop-down{
+    position: absolute;
+    width: 200px;
+    background-color:  var(--box-blue);
+    border-radius: 5px;
+    border: 0.5px solid var(--font-800);
+    top: 110px;
+    right: 55%;
+    overflow: 0;
+    visibility: hidden;
+    transition: all 0.5s;	
+
+   
+}
+.drop-down{
+    padding: 10px;
+}
+.menu ul li:hover .drop-down{
+    overflow: 1;
+    visibility: visible;
+    top: 100px;
+	 
+}
+
+.drop-down1{
+    position: absolute;
+    width: 200px;
+    background-color: var(--box-blue);
+    border-radius: 5px;
+    border: 0.5px solid var(--font-800);
+    top: 110px;
+    right: 34%;
+    overflow: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+		z-index:999;
+}
+.drop-down1{
+    padding: 10x;
+}
+.menu ul li:hover .drop-down1{
+    overflow: 1;
+    visibility: visible;
+    top: 100px;
+}
+.drop-down2{
+    position: absolute;
+    width: 200px;
+    background-color: var(--box-blue);
+    border-radius: 5px;
+    border: 0.5px solid var(--font-800);
+    top: 110px;
+    right: 28%;
+    overflow: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.drop-down2{
+    padding: 10x;
+}
+.menu ul li:hover .drop-down2{
+    overflow: 1;
+    visibility: visible;
+    top: 100px;
+}
+.drop-down3{
+    position: absolute;
+    width: 200px;
+    background-color: var(--box-blue);
+    border-radius: 5px;
+    border: 0.5px solid var(--font-800);
+    top: 110px;
+    right: 40%;
+    overflow: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+.drop-down3{
+    padding: 10x;
+}
+.menu ul li:hover .drop-down3{
+    overflow: 1;
+    visibility: visible;
+    top: 100px;
+}
+/* .slider */
+.slider{
+    width: 100%;
+    height: 800px;
+    background-image: url('../img/slide1.jpeg');
+}
+.slider img{
+    width: 100%;
+}
+.background{
+    width: 100%;
+    height: 100%;
+    background-color:#11193bbb;    
+}
+.move{
+    padding-top: 400px;
+}
+.move h1 {
+    font-size: 64px;
+    line-height: 64px;
+    margin-bottom: 0px;
+    color: #fff;
+    padding-bottom: 20px;
+    max-width: 640px;
+    font-weight: 600;
+}
+.move p{
+    font-size: 18px;
+    margin: 7px;
+    font-family: var(--font-family);
+    color: rgba(255, 254, 254, 0.839);
+}
+/* .btn{
+    width: 160px;
+    height: 52px;
+    background-color: #17aac9;
+    margin: 20px 0 0;
+    padding: 12px 10px;
+    text-align: center;
+    font-family: var(--font-family);
+} */
+.btn{
+    border: 1px solid #17aac9;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 12px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+    background: #17aac9;
+    width: 160px;
+    border-radius: 2px;
+}
+
+/* Create an account */
+
+.box3{
+    width: 100%;
+    background-color: var(--background);
+    padding: 110px 0;
+}
+.box4{
+    width: 1100px;
+    background-color: var(--box-blue);
+    padding: 50px 30px;
+    border-radius: 4px;
+    margin: auto;
+}
+.wel-services{
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.4s;
+    padding: 30px 0px 10px;
+}
+.big-icon{
+    font-size: 60px;
+    display: inline-block;
+    line-height: 64px;
+    position: relative;
+    z-index: 1;
+}
+.big-icon::after{
+    position: absolute;
+    content: "";
+    left: -25px;
+    top: -15px;
+    background: #17aac9;
+    z-index: -1;
+    width: 70px;
+    height: 70px;
+    opacity: 0.5;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.main-wel{
+    padding: 20px 0px 0px;
+}
+.wel-content h4 {
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 0;
+    padding: 0 0 10px;
+    font-weight: 600;
+    font-family: var(--font-family);
+    margin: 0 0 15px;
+    color: #fff;
+}
+.wel-content p {
+    margin-bottom: 0px;
+    color: #e3e1e7;
+    font-family: var(--font-family);
+}
+
+/* about-area */
+
+.about-area{
+    width: 100%;
+    background-color: var(--background-800);
+    padding: 110px 0px;
+    height: 50%;
+}
+.image {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    padding-right: 80px;
+}
+
+.image img{
+    border-radius: 5px;
+    border: 6px solid #243063;
+    max-width: 100%;
+    height: auto;
+    
+}
+.second-img{
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+    width: 50%;
+    height: auto;
+}
+.video-play {
+    background: #17aac9;
+    border-radius: 100%;
+    display: inline-block;
+    font-size: 30px;
+    height: 80px;
+    line-height: 78px;
+    text-align: center;
+    width: 80PX;
+    overflow: hidden;
+    position: absolute;
+    top: 60%;
+    z-index: 2;
+    right: 22%;
+    margin: 0 auto;
+    transition: 0.4s;
+    margin-top: -35px;
+}
+.video-play i{
+    color: #fff;
+    margin-left: 5px;
+}
+
+.about-content h3 {
+    line-height: 40px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3{
+    font-family: var(--font-family);
+    margin: 0 0 15px;
+    color: #fff;
+    font-weight: 700;
+}
+.single-about a {
+    font-size: 30px;
+    color: #17aac9;
+    float: left;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    border: 1px solid #17aac9;
+    text-align: center;
+    border-radius: 50%;
+}
+.single-about a i{
+    color: var(--light-blue);
+}
+.icon-text{
+    padding-left: 95px;
+}
+.icon-text h5{
+    margin: 0 0 5px;
+    font-size: 20px;
+    font-family: var(--font-family);
+    color: var(--white-700);
+}
+p {
+    margin: 0 0 60px;
+    color: var(--white-700);
+    font-size: 16px;
+}
+.single-about{
+    display: block;
+    margin-top: 30px;
+}
+
+/* Bultifore services */
+.Bultifore-services{
+    background: var(--background);
+    padding: 110px 0px 80px;
+}
+.headline{
+    padding-bottom: 40px;
+    position: relative;
+    text-align: center;
+}
+.headline h3{
+    font-size: 40px;
+    line-height: 46px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 0 15px;
+    color: var(--white-700);
+    font-weight: 700;
+}
+.headline p{
+    font-size: 16px;
+    max-width: 510px;
+    color: var(--white-700);
+    margin: 0px auto;
+}
+.single-service{
+    text-align: center;
+    box-shadow: 0 5px 25px rgb(0 0 0 / 10%);
+    padding: 30px 15px;
+    border: 1px solid var(--box-blue);
+    position: relative;
+    margin-bottom: 30px;
+    background: var(--box-blue);
+    transition: 0.5s;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.service-icon{
+    font-size: 60px;
+    display: inline-block;
+    line-height: 66px;
+    color: var(--white-700);
+}
+.main-service {
+    padding: 20px 0px 0px;
+}
+.service-content h4 {
+    display: inline-block;
+    font-size: 22px;
+    margin-bottom: 0;
+    padding: 0 0 10px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: 'Nunito', sans-serif;
+    margin: 0 0 15px;
+    color: var(--white-700);
+}
+.single-service::after{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 1px;
+    background: var(--light-blue);
+}
+
+.money-transfer{
+    width: 21%;
+    margin: 20px;
+}
